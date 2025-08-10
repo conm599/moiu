@@ -1,0 +1,10 @@
+name = "idea-sharing-app"
+compatibility_date = "2025-08-11"
+main = "worker.js"
+
+# D1数据库绑定配置
+[[d1_databases]]
+binding = "dl"  # 绑定名称，与代码中的env.dl对应
+database_name = "mo"  # 数据库名称
+database_id = "9b8d9eaf-60b9-41a5-a352-116abc13bc98"  # 你的数据库ID
+    
